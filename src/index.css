@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  margin-left: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.ComponentHeader{
+  justify-content: flex-end;
+  display: flex;
+  height: 70px;
+  width: 100vw;
+}
+
+.Cart{
+  margin-top: 30px;
+  margin-right: 90px;
+  float: right;
+  justify-content: flex-end;
+}
+
+.img{
+  justify-content: center;
+  align-items: center;
+  float: left;
+  display: flex;
+  border-radius: 100%;
+  background-color: #c0c0c0;
+  height: 50px;
+  width: 50px;
+  margin: 19px;
+  margin-left: 30px;
+}
+
+.txt{
+  font-size: small;
+  margin-top: 18px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.out_bt{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 15px;
+}
